@@ -1,0 +1,32 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+.header{
+    background-color: white;
+    .container2{
+        .menu{
+            ul{
+                li{
+                    a{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .right-menu{
+            a{
+                i{
+                    display: block;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+}
+
+// Medium devices (tablets, 768px and up)
+@media(min-width: 576px) and (max-width: 768px) { 
+
+}
+
+// Large devices (desktops, 992px and up)

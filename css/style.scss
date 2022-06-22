@@ -1,0 +1,87 @@
+.header{
+    background-color: white;
+    .container2{
+        width: 80%;
+        margin: auto;
+       .menu{
+           ul{
+               li{
+                   a{
+                       padding: 20px;
+                       display: block;
+                      text-decoration: none;
+                      color: black;
+                      margin-top: 22px;
+                      color: #343f52;
+                      font-size: 1rem;
+                      letter-spacing: normal;
+                      font-weight: 600;
+                      transition: 0.3s ease-in-out;
+                      &:hover{
+                          color: #605dba;
+                      }
+                   }
+               }
+           }
+       }
+       .right-menu{
+           display: flex;
+           i{
+               margin-left: 5px;
+               cursor: pointer;
+               font-weight: 600;
+           }
+           a{
+               text-decoration: none;
+               i{
+                   color: black;
+                   display: none;
+                   
+                   
+                }
+           }
+       }
+    }
+}
+.network{
+    background-color: #E9E0FB;
+    padding-top: 4.5rem;
+    height: 85vh;
+    width: 100%;
+    .container2{
+        width: 80%;
+        margin: auto;
+        .left-text{
+            h1{
+                font-size: 3rem;
+                line-height: 1.2;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 600;
+                margin-bottom: 1.5rem;
+                color:  #343f52;
+                em{
+                    font-style: normal;
+                    color: #f857a6;
+                }
+            }
+            p{
+                font-size: 1.15rem;
+                line-height: 1.5;
+                font-weight: 500;
+                margin-bottom: 1.15rem;
+                color: #343f52;
+            }
+            a{
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+@import "_responsive";
